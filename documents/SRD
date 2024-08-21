@@ -13,3 +13,14 @@ The system should facilitate effective data cleansing, storage, and retrieval to
 Assumptions and Dependencies
 The project assumes the use of AWS services and Databricks for data processing.
 The success of the project is dependent on the availability of clean and reliable data.
+
+System Features and  Requirements
+Functional requirements:
+Data Ingestion: Save the provided example data to AWS S3 in a folder called input-data.
+Data Cleaning: Remove null values, duplicates, and other irregularities from datasets (Patients, Subscribers, Claims, Group_subgroups).
+Data Storage: Upload cleansed data to Redshift tables that correspond with the schema design.
+Result Generation: Create and store analysis results in Redshift tables under the Project-Output schema.
+Non-functional Requirements:
+Performance: The system should be able to process huge datasets efficiently using AWS and Databricks infrastructure.
+Security: Data must be securely stored and accessible to ensure compliance with health-care privacy legislation.
+Scalability: The system should be able to manage growing amounts of data as the project progresses.
