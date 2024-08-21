@@ -1,7 +1,8 @@
-Introduction 
+Introduction:
 Purpose: This requirements specification document outlines the Health Care Insurance Data Analysis Project's functional and non-functional needs. To ensure a successful project completion, developers, testers, and project managers will utilize this document as a guide to understand the project scope, user needs, system features, and other important factors.
 Intended Audience and Use: This paper is designed for the project development team, which includes data engineers, data scientists, project managers, and stakeholders. It will direct the system's development, testing, and implementation.
 Product Scope: By creating a Big Data ecosystem, the project hopes to follow customer activity, analyze competitor data from several sources, and increase revenue through targeted offers and royalties.
+
 Overall Description: 
 The project aims to create data pipelines for cleaning and analyzing health insurance data, enabling the insurance firm to boost client engagement and revenue.
 Product Features: The product will support data ingestion, cleaning, analysis, and visualization via tools such as AWS S3, Redshift, Databricks, and PySpark.
@@ -9,3 +10,6 @@ User Classes and Characteristics: The key users will be data analysts, data scie
 User needs:
 Users require a comprehensive system to examine massive datasets such as health insurance claims, customer demographics, and competitor behaviors.
 The system should facilitate effective data cleansing, storage, and retrieval to enable fast analysis and decision-making.
+Assumptions and Dependencies
+The project assumes the use of AWS services and Databricks for data processing.
+The success of the project is dependent on the availability of clean and reliable data.
